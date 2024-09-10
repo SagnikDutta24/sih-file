@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmMarket</title>
+    <link href="login.css" rel="stylesheet" />
+    <link rel="icon" href="./logo.jpg" type="image/x-icon">
+</head>
+<body class="A">
+    <nav class="navbar flex">
+        <div class="comp-logo-container">
+            <a href="//" class="logo">
+                <img class="b" src="./logo.jpg" alt=""></a>
+        </div>
+        <div class="brand">
+            <div class="name">FARM-MARKET</div>
+          </div>
+            <div class="x">
+              <div class="y">
+                <div class="Get">
+                  <a href="./get_in_touch.html">Get in Touch</a></div>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <div class="form">
+      <form action="/submit_form" method="post">
+        <div class="adhar">
+          <label for="aadhaar">Enter the Aadhaar Number:</label><br>
+          <input type="text" id="aadhaar" name="aadhaar" maxlength="12" pattern="[0-9]{12}" placeholder="" required><br><br>
+        </div><br>
+        <div class="or">
+          <label for="aadhaar">OR</label><br>
+        </div>
+        <div class="mob">
+          <label for="mobile">Enter the registered Mobile Number:</label><br>
+          <input type="text" id="mobile" name="mobile" maxlength="10" pattern="[0-9]{10}" placeholder="" required><br><br>
+        </div>
+        <div class="OTP">
+          <label for="otp">Enter OTP:</label><br>
+          <input type="text" id="otp" name="otp" maxlength="6" pattern="[0-9]{6}" placeholder="" required><br><br>
+        </div>
+        <div class="log">
+          <button type="submit">Login</button>
+        </div>
+    </form>
+    </div>
+    <div class="login">
+      <a href="./index.html">Sign Up<img class="t" src="./icon.jpg"> </a>
+  </div>   
+</body>
+</html>

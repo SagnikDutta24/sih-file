@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmMarket</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="./logo.jpg" type="image/x-icon">
+</head>
+<body class="A">
+    <nav class="navbar flex">
+        <div class="comp-logo-container">
+            <a href="//" class="logo">
+                <img class="b" src="./logo.jpg" alt=""></a>
+        </div>
+        <div class="brand">
+            <div class="name">FARM-MARKET</div>
+          </div>
+            <div class="x">
+              <div class="y">
+                <div class="Get">
+                  <a href="./get_in_touch.html">Get in Touch</a></div>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <div class="form">
+      <form action="/submit_form" method="post">
+        <div class="Name">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div class="mob">
+        <label for="mobile">Mobile No.:</label><br>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+        </div>
+        <div class="adhar">
+        <label for="aadhaar">Aadhaar No.:</label><br>
+        <input type="text" id="aadhaar" name="aadhaar" pattern="[0-9]{12}" required><br><br>
+        </div>
+        <div class="loc">
+        <label for="location">CITY NAME:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+        <label for="location">PIN NUMBER:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+        </div>
+        <div class="role">
+          <label for="role">Role:</label><br>
+          <select id="role" name="role" required>
+            <option value="buyer">Buyer</option>
+            <option value="farmer_seller">Farmer/Seller</option>
+        </select><br><br>
+        </div>
+        <div class="sign">
+        <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    </div>
+    
+      <div class="login">
+        <a href="./login.html">LogIn<img class="t" src="./icon.jpg"> </a>
+    </div>    
+
+</body>;
+</html>

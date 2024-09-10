@@ -1,0 +1,252 @@
+.contactus{
+    width: auto; 
+    height: auto; 
+    position: relative; 
+    background: white; 
+    border-radius: 12px; 
+    overflow: hidden;
+    display: flex;
+    gap: 25em;
+}
+.formframe{
+    width: 1100px; 
+    height: 1078px; 
+    position: relative;
+    background-image: url("./contact.jpg");
+    background-size: cover;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #333;
+    color: white;
+}
+.Inputs {
+    padding-left: 100px;
+    left: 150px;
+    top: 180px;
+    position: absolute;
+    background: rgba(0, 207, 106, 0.10);
+    border-radius: 12px;
+    border: 1px solid #E8EFE9;
+    flex-direction: column;
+    gap: 50px;
+    display: inline-flex;
+    padding-right: 100px;
+    padding-bottom: 45px;
+    padding-top: 25px;
+    height: 700;
+}
+.Name, .Email, .Message {
+    height: 94px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    display: flex;
+    width: 600px;
+}
+.Message {
+    height: 274px;
+}
+.Name > div, .Email > div, .Message > div {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32.20px;
+}
+.InputField {
+    align-self: stretch;
+    padding: 12px;
+    background: #e6fdf1ae;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+.Message .InputField {
+    height: 236px;
+    resize: none;
+}
+.ButtonActive {
+    height: 59px;
+    background: #B0F7D5;
+    border-radius: 100px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.StateLayer {
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.LabelText {
+    text-align: center;
+    color: #005129;
+    font-size: 28px;
+    font-weight: 700;
+}
+input[type="text"], input[type="email"], textarea {
+    border: none;
+    width: 100%;
+    background: #e6fdf1ae;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+img{
+    height: 80px;
+    width: 80px;
+    /* margin-right: 50px; */
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.title{
+    width: 850px; 
+    height: 39px; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+.send {
+    flex: 1 1 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 39.20px;
+    word-wrap: break-word;
+    margin-left: 65px;
+    /* margin-right: auto; */
+}
+.box1{
+    width: 630px; 
+    height: 627px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 100px; 
+    display: inline-flex;
+    padding-top: 15em;
+}
+.box2{
+    width: 530px; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+.get{
+    width: 582px; 
+    text-align: center; 
+    color: #005129; 
+    font-size: 28px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 39.20px; 
+    word-wrap: break-word;
+}
+.box3{
+    width: 630px; 
+    height: 488px; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    display: flex;
+}
+.box4{
+    align-self: stretch; 
+    height: 106px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+}
+.address{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 28px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 39.20px; 
+    word-wrap: break-word;
+}
+.addtext{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 23px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    line-height: 32.20px; 
+    word-wrap: break-word;
+}
+.box5{
+    align-self: stretch; 
+    height: 106px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+}
+.email{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 28px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 39.20px; 
+    word-wrap: break-word;
+}
+.emailtext{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 23px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    line-height: 32.20px; 
+    word-wrap: break-word;
+}
+.box6{
+    align-self: stretch; 
+    height: 106px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+}
+.number{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 28px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 39.20px; 
+    word-wrap: break-word;
+}
+.digit{
+    align-self: stretch; 
+    height: 48px; 
+    color: #0B270D; 
+    font-size: 23px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    line-height: 32.20px; 
+    word-wrap: break-word;
+}
